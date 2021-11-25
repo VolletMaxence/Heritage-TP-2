@@ -1,12 +1,9 @@
 #include "QLineEdit_Histo.h"
 #include "Historiqu.h"
 #include <qDebug>
-#include <QKeyEvent>
 
-QLineEdit_Histo::QLineEdit_Histo(int TailleMax)
+QLineEdit_Histo::QLineEdit_Histo(int TailleMax, QWidget *parent) : QLineEdit(parent) 
 {
-	setFocusPolicy(Qt::StrongFocus);
-
 	this->tailleHisto = TailleMax;
 
 }

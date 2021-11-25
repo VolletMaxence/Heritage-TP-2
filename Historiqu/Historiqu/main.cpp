@@ -1,8 +1,5 @@
 #include "Historiqu.h"
 #include <QtWidgets/QApplication>
-#include <Qt>
-#include <QtGui>
-#include <QKeyEvent>
 
 int main(int argc, char *argv[])
 {

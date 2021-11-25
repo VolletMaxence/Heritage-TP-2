@@ -9,18 +9,22 @@
 #include <QVector>
 #include <QObject>
 #include <QKeyEvent>
+#include "QLineEdit_Histo.h"
 
 class Historiqu : 
 	public QMainWindow
 {
     Q_OBJECT
-	private:
-		Ui::HistoriquClass ui;
-		QVector<QString> HistoriqueTexte;
 
 	public:
 		Historiqu(QWidget *parent = Q_NULLPTR);
 
+	private:
+		Ui::HistoriquClass ui;
+		//QVector<QString> HistoriqueTexte;
+
+		QLineEdit * Texte;
+		QLineEdit_Histo * QLineEdit_History;
 
 	public slots:
 		void Ajoute();
