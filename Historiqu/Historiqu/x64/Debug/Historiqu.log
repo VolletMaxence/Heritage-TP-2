@@ -1,3 +1,7 @@
-﻿  Historiqu.cpp
+﻿  moc Historiqu.h
+  Historiqu.cpp
   QLineEdit_Histo.cpp
+  main.cpp
+  moc_Historiqu.cpp
+  moc_QLineEdit_Histo.cpp
   Historiqu.vcxproj -> C:\Users\VOLLET Maxence\source\repos\Historiqu\x64\Debug\Historiqu.exe
